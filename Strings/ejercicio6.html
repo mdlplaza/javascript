@@ -1,0 +1,20 @@
+<!--Escribe un programa que dada una palabra en minúsculas, muestre en la consola la mitad de la palabra en minúsculas y la otra mitad en mayúsculas. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let palabra = "hola";
+        let mitad = palabra.substring(0, String.length/2);
+        let mitadMayus = mitad.toUpperCase();
+        let palabraMostar= palabra.replace("ho", mitadMayus);
+
+        console.log(palabraMostrar);
+    </script>
+</body>
+</html>
