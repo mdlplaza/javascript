@@ -1,0 +1,40 @@
+<!--Un programa que te pregunta la temperatura que hace donde estás y te sugiere qué hacer dependiendo de ella. Las recomendaciones son:
+
+Si hace más de 40 grados, vete a otro sitio
+Entre 30 y 40 grados, enciende el aire acondicionado
+Entre 30 y 20 grados, no hagas nada
+Entre 10 y 20 grados, enciende la calefacción
+Si hace menos de 10 grados, vete a otro sitio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let tiempo = parseInt(window.prompt("tiempo"));
+
+        if (tiempo >= 40){
+            console.log ("vete a otro sitio");
+
+        } else if ( tiempo > 30 && tiempo < 40) {
+            console.log ("enciende el air acondicionado"); 
+
+        }else if ( tiempo > 30 && tiempo < 20) {
+            console.log ("no hagas nada");
+    
+        } else {
+            console.log ("vete a otro sitio");
+        }
+    
+        
+
+    
+    </script>
+</body>
+</html>
