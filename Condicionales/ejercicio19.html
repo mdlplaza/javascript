@@ -1,0 +1,30 @@
+<!--19. Decir el número de helados que queremos comprar. Cada helado vale 2 euros. Si compramos más de 10 helados, nos regalan uno. Mostrar en pantalla el número de helados que nos dan y cuánto hemos pagado por ellos. (Sólo damos un helado gratuito aunque compren muchos más helados que 10) 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let helado = parseInt(window.prompt("numero de helados"))
+        const precio = ("2")
+
+        if (helado > 10 ){
+        console.log(helado + 1);
+        console.log(helado*precio);
+        
+        }
+        else if (helado < 10){
+        console.log(helado);
+        console.log(helado*precio);
+        }
+
+
+
+    </script>
+</body>
+</html>
