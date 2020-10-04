@@ -171,4 +171,10 @@ let personas = {
  
  
 
+let persona = {
+  "nombre de persona" : "Maialen",
+};
+
+
 let name = window.prompt("dime tu nombre")
+if (name 
