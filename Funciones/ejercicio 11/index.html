@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Ponemos un input de tipo texto para que el usuario introduzca un importe en euros
+    Tiene que tener un id para poder acceder a su valor desde JS-->
+    <input id="euros" type="text" placeholder="€" />
+    <!--Ponemos un botón que ejecutara la función cogerEuros() cuando se clicke en el-->
+    <button onclick="cogerEuros()">Cambio</button>
+    <!--Creamos un select y con el atrinuto onchange llamaremos a la funcion cambioMoneda() cada vez que 
+    el select cambie. Es decir, cada vez que el usuario elija una opción-->
+    <select onchange="cambioMoneda(event)">
+      <!--Dentro del select creamos 3 opciones con su valor-->
+      <option value="libras">libras</option>
+      <option value="dolares">Dolares</option>
+      <option value="yenes">Yenes</option>
+    </select>
+    <script src="./index.js"></script>
+  </body>
+</html>
+Contraer
+
+
+

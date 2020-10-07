@@ -360,7 +360,7 @@ let mostrarPersonas;
 
 function buscarPersonas() {
 
-	let valor = document.getElementById("input").value;
+	let valor = Parseint(document.getElementById("input").value);
 
 	if (valor >= 0 && valor < arrayPersonas.length) {
 
